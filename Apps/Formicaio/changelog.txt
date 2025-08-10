@@ -1,3 +1,9 @@
+v0.6.0
+  - Removed home-network/relayed mode for nodes.
+  - Node auto-upgrades are now executed as a batch of node actions, giving users clear visibility into when auto-upgrade is in progress and the option to cancel it if desired.
+  - Internal codebase refactoring to improve organization and reduce technical debt.
+  - Enhanced documentation for public data types and updated parts of the README instructions.
+
 v0.5.6
   - GUI enhancements: Separated basic and advanced options for adding nodes
   - Minor GUI fix: Resolved an issue where adding new node(s) would fail, it now removes the placeholder node and displays an popup alert message
