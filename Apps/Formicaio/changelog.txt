@@ -1,3 +1,5 @@
+v0.7.0
+  - Revamped design and enhanced user experience for the GUI.
 v0.6.0
   - Removed home-network/relayed mode for nodes.
   - Node auto-upgrades are now executed as a batch of node actions, giving users clear visibility into when auto-upgrade is in progress and the option to cancel it if desired.
