@@ -1,3 +1,9 @@
+v0.7.2
+  - New section in settings for users to define the frequency for checking the disk usage of nodes (default 60 secs).
+  - The dashboard now shows the total amount of bytes used by all nodes, along with the overall disk usage status.
+  - Individual node disk usage is now tracked and reported.
+  - Fixed an issue where redundant disks were included when checking disk usage, leading to more accurate reporting in those scenarios.
+  - Users can now sort nodes based on disk usage.
 v0.7.1
   - Node actions are applied without creating a batch when only a single node was selected.
   - The dashboard now includes a disk usage report card. Note that this report currently does not distinguish between the usage attributed to the running nodes and other applications using the drive/s.
