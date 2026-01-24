@@ -1,3 +1,7 @@
+v0.7.4
+  - Fix a minor issue in dashboard balance addresses which had a redundant '0x' prefix.
+v0.7.3
+  - Dashboard enhancement where hovering the mouse over the balance card reveals a list of reward addresses assigned to all nodes and their respective balances, allowing users to click on each address to view detailed information on Arbiscan (https://arbiscan.io) explorer.
 v0.7.2
   - New section in settings for users to define the frequency for checking the disk usage of nodes (default 60 secs).
   - The dashboard now shows the total amount of bytes used by all nodes, along with the overall disk usage status.
