@@ -1,3 +1,10 @@
+v0.7.5
+  - Allow to sort nodes by their binary version.
+  - Detect and track native node processes that restarted themselves with a new PID due to natively upgrading.
+  - Detect and allow dockerised nodes to restart when natively upgrading themselves.
+  - When nodes are discovered with new PIDs and version, update local DB cache.
+  - Minor improvements to node card placeholder when creating nodes or scheduling batches.
+  - Icon and style tweaks, removing redundant color classes, and minor refactoring in rendering node info.
 v0.7.4
   - Fix a minor issue in dashboard balance addresses which had a redundant '0x' prefix.
 v0.7.3
