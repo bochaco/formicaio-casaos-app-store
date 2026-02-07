@@ -1,3 +1,6 @@
+v0.7.6
+  - Upgrade button in list view: The upgrade button now appears on every upgradable node in list view.
+  - Native-mode restart preserves running nodes: When Formicaio runs in native mode and the process is terminated with a kill signal (e.g. using kill -9 <PID> or tools like btop), you can restart Formicaio without stopping nodes that were already active. On startup, Formicaio will detect and continue tracking those running nodes. If Formicaio was otherwise stopped with Ctrl+C, nodes will be shut down as in previous versions.
 v0.7.5
   - Allow to sort nodes by their binary version.
   - Detect and track native node processes that restarted themselves with a new PID due to natively upgrading.
