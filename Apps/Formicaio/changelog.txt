@@ -1,3 +1,5 @@
+v0.7.8
+  - Earnings analytics: rewards history is synced from the Arbitrum ledger and cached locally, giving a ~6-month view of earnings broken down into four periods, each showing total earned, payment stats, and a comparison vs the prior period.
 v0.7.7
   - MCP server status page: Dedicated, real‑time page showing MCP server status, plus step‑by‑step instructions for activating and configuring the MCP server.
   - Notifications history: Full history of all notifications/alerts available in the GUI at any time.
