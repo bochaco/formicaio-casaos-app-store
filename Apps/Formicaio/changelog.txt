@@ -1,3 +1,18 @@
+v0.7.9
+  - AI Agent (new page in the sidebar)
+    - Chat directly with your node fleet: ask it to start, stop, or inspect nodes, get health summaries, or query which node has the most stored records
+    - Responses stream in real time, just like a chat app
+    - Every tool call the agent makes is shown in an expandable panel, so you always know exactly what action was taken
+    - Multiple chat sessions, each with its own history
+  - AI Autonomous Mode
+    - Toggle a background agent that wakes up on a schedule, checks the health of every node, and automatically restarts any that are offline
+    - A built-in events log keeps a timestamped history of every check cycle and what (if anything) was done
+    - Alert notifications in the top bar bell let you know when the agent acted
+    - Configurable check interval, and a per-cycle action cap so the agent stays conservative until you’re comfortable with it
+  - AI Agent Settings
+    - LLM Base URL, model name, and optional API key
+    - Custom system prompt to fine-tune the agent’s behavior
+    - Max context messages, autonomous check interval, and max actions per cycle, all adjustable
 v0.7.8
   - Earnings analytics: rewards history is synced from the Arbitrum ledger and cached locally, giving a ~6-month view of earnings broken down into four periods, each showing total earned, payment stats, and a comparison vs the prior period.
 v0.7.7
