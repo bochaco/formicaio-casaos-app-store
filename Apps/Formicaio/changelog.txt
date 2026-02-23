@@ -1,3 +1,8 @@
+v0.7.10
+  - Fix: Tool call results and agent responses in the chat are now properly decoded and formatted resolving display issues
+  - Feature: Rewards monitoring and earnings analytics can now be enabled or disabled from the Settings panel
+  - Internal refactoring: MCP tool definitions are no longer duplicated, descriptions and parameter schemas are now derived directly from the existing MCP tool structs
+  - Improvement: AI agent prompts refined, clearer rules, tighter autonomous mode instructions, and better guidance on tool usage for more reliable behaviour across different models
 v0.7.9
   - AI Agent (new page in the sidebar)
     - Chat directly with your node fleet: ask it to start, stop, or inspect nodes, get health summaries, or query which node has the most stored records
